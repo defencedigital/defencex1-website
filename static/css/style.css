@@ -508,6 +508,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 0 15px;
 }
 
+#intro .intro-container img {
+  max-height: 4rem;
+}
+
 #intro h1 {
   color: #fff;
   font-family: "Raleway", sans-serif;
@@ -1418,7 +1422,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-info img {
-  height: 40px;
+  height: 2rem;
   margin-bottom: 10px;
 }
 
