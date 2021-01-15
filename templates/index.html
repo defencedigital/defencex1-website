@@ -7,13 +7,74 @@
   ============================-->
   <section id="intro">
     <div class="intro-container wow fadeIn">
-      <img class="mb-4 pb-0" src="{{ url_for('static', filename='img/DEFEnCEx0-DONE-logo.png') }}">
-      <p class="mb-4 pb-0">The MoD's first pan-Defence digital show & tell and unconference</p>
-      <p class="mb-4 pb-0">Thanks for joining the rebel alliance and helping us have such a fantastic day!</p>
+      <img class="mb-4 pb-0" src="{{ url_for('static', filename='img/logo-text-only.png') }}">
+      <p class="mb-4 pb-0">The second in a series of pan-Defence digital conferences.</p>
+      <p class="mb-4 pb-0">Join the rebel alliance.</p>
 <!--      <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>-->
 <!--      <a href="https://surveys.mod.uk/index.php/323895?lang=en" target="_blank" class="about-btn scrollto">Apply for a ticket</a>-->
     </div>
   </section>
+
+  <main id="main">
+
+    <!--==========================
+      About Section
+    ============================-->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2>About The Event</h2>
+            <p>This is the second in the 'DefenceX' conference series, after a successful Defencex0 last year. It's a chance for like-minded digital, technology, data and agile people in Defence – those delivering or overseeing delivery of user-centred products and services – to get together and share ideas and best practice. </p>
+          </div>
+          <div class="col-lg-3">
+            <h3>Where</h3>
+            <p>Remote</p>
+          </div>
+          <div class="col-lg-3">
+            <h3>When</h3>
+            <p>Tuesday<br />26 January 2021<br /> 10:00am</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {% include 'sections/speakers.html' %}
+
+    {% include 'sections/schedule.html' %}
+
+    {% include 'sections/venue.html' %}
+
+    {% include 'sections/faqs.html' %}
+
+    <!--==========================
+      Contact Section
+    ============================-->
+    <section id="contact" class="section-bg wow fadeInUp">
+
+      <div class="container">
+
+        <div class="section-header">
+          <h2>Contact Us</h2>
+          <p>Have questions? Get in touch.</p>
+        </div>
+
+        <div class="row contact-info justify-content-center">
+
+          <div class="col-md-4">
+            <div class="contact-email">
+              <i class="ion-ios-email-outline"></i>
+              <h3>Email</h3>
+              <p><a href="mailto:defencex1@digital.mod.uk">defencex1@digital.mod.uk</a></p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #contact -->
+
+  </main>
 
 {% include 'snippets/footer.html' %}
 
